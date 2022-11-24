@@ -9,7 +9,10 @@ public class CustomerController {
 
     @RequestMapping("/list")
     public String getCustomerList(){
-
+        System.out.prientln("1");
+        System.out.prientln("1");
+        System.out.prientln("1");
+        System.out.prientln("1");
         return "customer";
     }
 
